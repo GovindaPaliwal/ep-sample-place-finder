@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gp.epsample.MainActivity" >
+
+<item 
+    android:id="@+id/action_theme_ligth"
+    app:showAsAction="never"
+     android:title="Ligth"
+    />
+<item 
+    android:id="@+id/action_theme_dark"
+    app:showAsAction="never"
+     android:title="dark"
+    />
+<item 
+    android:id="@+id/action_theme_custom"
+    app:showAsAction="never"
+     android:title="custom"
+    />
+</menu>

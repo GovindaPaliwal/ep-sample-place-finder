@@ -1,0 +1,48 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme.Material_Dark" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+	<item name="android:actionBarStyle">@style/MyActionBarDark</item>
+
+    </style>
+    
+     <style name="Theme.Material_Custom" parent="@style/Theme.AppCompat.Light">
+	<item name="android:actionBarStyle">@style/MyActionBarLigth</item>
+
+    </style>
+    
+      <style name="Theme.Material_Ligth" parent="@style/Theme.AppCompat.Light">
+	<item name="android:actionBarStyle">@style/MyActionBarLigth</item>
+
+    </style>
+
+    <style name="MyActionBarLigth" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#DA81F5</item>
+    </style>
+     <style name="MyActionBarDark" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#A901DB</item>
+    </style>
+    <style name="Theme.YOUR_CUSTOM_THEME" parent="Theme.AppCompat.Light">
+
+    	<!-- Define styles for YOUR_CUSTOM_THEME here. -->
+    	<item name="colorButtonNormal">@color/accent_material_dark</item>
+
+    </style>
+</resources>
